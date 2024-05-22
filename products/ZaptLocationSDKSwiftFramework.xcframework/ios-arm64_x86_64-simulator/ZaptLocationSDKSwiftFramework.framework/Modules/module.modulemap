@@ -1,0 +1,6 @@
+framework module ZaptLocationSDKSwiftFramework {
+  umbrella header "ZaptLocationSDKSwiftFramework.h"
+  export *
+
+  module * { export * }
+}
