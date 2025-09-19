@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZaptLocationSDKSwiftFramework
+import CoreLocation
+import Foundation
+import Swift
+@_exported import ZaptLocationSDKSwiftFramework
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class ZTUserInfo {
+  public init()
+  public func getUserId() -> Swift.String
+  public func getUserName() -> Swift.String?
+  public func getDeviceId() -> Swift.String
+  public func getCategories() -> Foundation.NSMutableDictionary
+  public func commit()
+  public static func recover() -> ZaptLocationSDKSwiftFramework.ZTUserInfo
+  public func toJSON() -> Swift.String?
+  @objc deinit
+}
+public protocol ZTBeaconListener : AnyObject {
+  func onBeaconsRanged(_ beacons: [CoreLocation.CLBeacon], in region: CoreLocation.CLBeaconRegion)
+  func onAuthorizationChanged(_ status: CoreLocation.CLAuthorizationStatus)
+  func onMonitoringFailed(for region: CoreLocation.CLRegion?, error: any Swift.Error)
+}
+extension ZaptLocationSDKSwiftFramework.ZTBeaconListener {
+  public func onBeaconsRanged(_ beacons: [CoreLocation.CLBeacon], in region: CoreLocation.CLBeaconRegion)
+  public func onAuthorizationChanged(_ status: CoreLocation.CLAuthorizationStatus)
+  public func onMonitoringFailed(for region: CoreLocation.CLRegion?, error: any Swift.Error)
+}
+@objc public class ZTLocationSDK : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public init(visitableId: Swift.String)
+  public func start()
+  public func initialize()
+  public func stop()
+  public func requestPermissions()
+  public func requestPermissionsBackground()
+  public func getMapLink() -> Swift.String?
+  public func getInterestLink(interestId: Swift.String) -> Swift.String?
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didDetermineState state: CoreLocation.CLRegionState, for region: CoreLocation.CLRegion)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didStartMonitoringFor region: CoreLocation.CLRegion)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: any Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didRangeBeacons beacons: [CoreLocation.CLBeacon], in region: CoreLocation.CLBeaconRegion)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  public func addBeaconListener(_ listener: any ZaptLocationSDKSwiftFramework.ZTBeaconListener)
+  public func removeBeaconListener(_ listener: any ZaptLocationSDKSwiftFramework.ZTBeaconListener)
+  @objc deinit
+}

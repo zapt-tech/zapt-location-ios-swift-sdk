@@ -1,0 +1,1247 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZaptLocationSDKSwiftFramework",
+    "printedName": "ZaptLocationSDKSwiftFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZaptLocationSDKSwiftFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTUserInfo",
+        "printedName": "ZTUserInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTUserInfo",
+                "printedName": "ZaptLocationSDKSwiftFramework.ZTUserInfo",
+                "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoCACycfc",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoCACycfc",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC9getUserIdSSyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC9getUserIdSSyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserName",
+            "printedName": "getUserName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC11getUserNameSSSgyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC11getUserNameSSSgyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceId",
+            "printedName": "getDeviceId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC11getDeviceIdSSyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC11getDeviceIdSSyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCategories",
+            "printedName": "getCategories()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableDictionary",
+                "printedName": "Foundation.NSMutableDictionary",
+                "usr": "c:objc(cs)NSMutableDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC13getCategoriesSo19NSMutableDictionaryCyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC13getCategoriesSo19NSMutableDictionaryCyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "commit",
+            "printedName": "commit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC6commityyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC6commityyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recover",
+            "printedName": "recover()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTUserInfo",
+                "printedName": "ZaptLocationSDKSwiftFramework.ZTUserInfo",
+                "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC7recoverACyFZ",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC7recoverACyFZ",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJSON",
+            "printedName": "toJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC6toJSONSSSgyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC6toJSONSSSgyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:29ZaptLocationSDKSwiftFramework10ZTUserInfoC",
+        "mangledName": "$s29ZaptLocationSDKSwiftFramework10ZTUserInfoC",
+        "moduleName": "ZaptLocationSDKSwiftFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZaptLocationSDKSwiftFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZaptLocationSDKSwiftFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "ZaptLocationSDKSwiftFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTBeaconListener",
+        "printedName": "ZTBeaconListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onBeaconsRanged",
+            "printedName": "onBeaconsRanged(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthorizationChanged",
+            "printedName": "onAuthorizationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMonitoringFailed",
+            "printedName": "onMonitoringFailed(for:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBeaconsRanged",
+            "printedName": "onBeaconsRanged(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthorizationChanged",
+            "printedName": "onAuthorizationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMonitoringFailed",
+            "printedName": "onMonitoringFailed(for:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP",
+        "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP",
+        "moduleName": "ZaptLocationSDKSwiftFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTLocationSDK",
+        "printedName": "ZTLocationSDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(visitableId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTLocationSDK",
+                "printedName": "ZaptLocationSDKSwiftFramework.ZTLocationSDK",
+                "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC11visitableIdACSS_tcfc",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC11visitableIdACSS_tcfc",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC5startyyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC5startyyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC10initializeyyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC10initializeyyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC4stopyyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC4stopyyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermissions",
+            "printedName": "requestPermissions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC18requestPermissionsyyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC18requestPermissionsyyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermissionsBackground",
+            "printedName": "requestPermissionsBackground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC28requestPermissionsBackgroundyyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC28requestPermissionsBackgroundyyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMapLink",
+            "printedName": "getMapLink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC10getMapLinkSSSgyF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC10getMapLinkSSSgyF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInterestLink",
+            "printedName": "getInterestLink(interestId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15getInterestLink10interestIdSSSgSS_tF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15getInterestLink10interestIdSSSgSS_tF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didFailWithError:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_16didFailWithErrorySo010CLLocationH0C_s0L0_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didDetermineState:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegionState",
+                "printedName": "CoreLocation.CLRegionState",
+                "usr": "c:@E@CLRegionState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didDetermineState:forRegion:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_17didDetermineState3forySo010CLLocationH0C_So08CLRegionK0VSo0N0CtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didDetermineState:forRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didEnterRegion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didEnterRegion:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_14didEnterRegionySo010CLLocationH0C_So8CLRegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didEnterRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didExitRegion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didExitRegion:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_13didExitRegionySo010CLLocationH0C_So8CLRegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didExitRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didStartMonitoringFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didStartMonitoringForRegion:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_21didStartMonitoringForySo010CLLocationH0C_So8CLRegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didStartMonitoringForRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:monitoringDidFailFor:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:monitoringDidFailForRegion:withError:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_20monitoringDidFailFor9withErrorySo010CLLocationH0C_So8CLRegionCSgs0N0_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:monitoringDidFailForRegion:withError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didRangeBeacons:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didRangeBeacons:inRegion:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_15didRangeBeacons2inySo010CLLocationH0C_SaySo8CLBeaconCGSo0N6RegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didRangeBeacons:inRegion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didChangeAuthorization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)locationManager:didChangeAuthorizationStatus:",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC15locationManager_22didChangeAuthorizationySo010CLLocationH0C_So21CLAuthorizationStatusVtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "objc_name": "locationManager:didChangeAuthorizationStatus:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addBeaconListener",
+            "printedName": "addBeaconListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBeaconListener",
+                "printedName": "any ZaptLocationSDKSwiftFramework.ZTBeaconListener",
+                "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC17addBeaconListeneryyAA08ZTBeaconI0_pF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC17addBeaconListeneryyAA08ZTBeaconI0_pF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeBeaconListener",
+            "printedName": "removeBeaconListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBeaconListener",
+                "printedName": "any ZaptLocationSDKSwiftFramework.ZTBeaconListener",
+                "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC20removeBeaconListeneryyAA08ZTBeaconI0_pF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC20removeBeaconListeneryyAA08ZTBeaconI0_pF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTLocationSDK",
+                "printedName": "ZaptLocationSDKSwiftFramework.ZTLocationSDK",
+                "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK(im)init",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKCACycfc",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ZaptLocationSDKSwiftFramework@objc(cs)ZTLocationSDK",
+        "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC",
+        "moduleName": "ZaptLocationSDKSwiftFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 42,
+      "length": 67,
+      "value": "\"https:\/\/us-central1-zapt-bigdata.cloudfunctions.net\/initializeSDK\""
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 61,
+      "value": "\"https:\/\/us-central1-zapt-backend.cloudfunctions.net\/publish\""
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 63,
+      "value": "\"https:\/\/us-central1-zapt-bigdata.cloudfunctions.net\/visitExit\""
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 68,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 29,
+      "value": "\"https:\/\/app.zapt.tech\/#\/map\""
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 933,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1022,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
