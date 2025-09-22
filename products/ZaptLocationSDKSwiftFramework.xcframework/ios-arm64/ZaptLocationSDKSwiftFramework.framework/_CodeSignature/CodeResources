@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1tKbGrDEWrdDhC5FDby0xq2/7eg=
+		oVPTkYxQ6+ITvENx/Ur7AQUfooA=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Qeabfk7SwTKLFTN4KVpuq0aYffU=
+		tHtoGgNyHiB0L9F9zkvPS6pFu9k=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NFyzZcSxF5nWwt8mPndzIqj+kEw=
+		ne7bXy17i78khojqSDukzI0nl6Y=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		DA5vHNWtNkOsc8qi1tYqk2Ie+Co=
+		RNlt4TE6OgbTEckGga78VxedTZQ=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NFyzZcSxF5nWwt8mPndzIqj+kEw=
+		ne7bXy17i78khojqSDukzI0nl6Y=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OqEJrn5XkyqaeH0D8LQws0/YNGc=
+		/v3U0jhz1gPJacvAETM9ak1sFLo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kcBiXbC4erF1a1zMBU80RuNgmDqCE34CG3NMTe6aHSE=
+			34ni3b7tLHD8SldSdZKUaENig2Q4MLORdcYG4Pktxio=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j3gkYzAsA1m404fwAsFaxFnP3wl/e6Z84Qe2EBPnYNo=
+			0rMtga43TghDkZXb2TeXWKehAzDjU6x8FTbXZ5j/2FI=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RthPI+3lOYFGOVCqv6bT1hbH7VfJpDui1Y5e+siatKU=
+			ov6XvPjf9TebEwmraG8KdFLdYVV2sgcESKFoUuF6oeQ=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j3gkYzAsA1m404fwAsFaxFnP3wl/e6Z84Qe2EBPnYNo=
+			0rMtga43TghDkZXb2TeXWKehAzDjU6x8FTbXZ5j/2FI=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3AhyOoQyPquRclpzckCAcOiTRiOv/zTGUU/JDOsfj0c=
+			94zpKd8mk1UjwG2rQwlZgH3T87YHg3Os49WzbNGBSJU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

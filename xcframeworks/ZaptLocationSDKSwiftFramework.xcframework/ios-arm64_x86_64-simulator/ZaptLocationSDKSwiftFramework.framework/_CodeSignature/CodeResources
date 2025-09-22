@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GhZoTUcLCP9Ca07LR2NuWOkEJmI=
+		tHtoGgNyHiB0L9F9zkvPS6pFu9k=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		72giaNN//JjXbV87w8S4+yKj3oc=
+		aQrG9hDY9cTjU7eNl4oKufS3EnA=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GhZoTUcLCP9Ca07LR2NuWOkEJmI=
+		tHtoGgNyHiB0L9F9zkvPS6pFu9k=
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yuh0Um7W4jcrS2XUN6P5SNyWOws=
+		mBXQ5w9IFdDSkdAv0kYgMtze8AA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bE59nZ9jF4WYdC5X1Nqp/cDDrEVw7YLEbf1UXXb1Kww=
+			34ni3b7tLHD8SldSdZKUaENig2Q4MLORdcYG4Pktxio=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b7GBOg/D+uPPj5c27Xe1KOMdQvl92ua4pC4T89BcHlM=
+			5uAzl9ITlgAognnlSLfBZOO1uJmnXNQPTlhTIPjrWH8=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bE59nZ9jF4WYdC5X1Nqp/cDDrEVw7YLEbf1UXXb1Kww=
+			34ni3b7tLHD8SldSdZKUaENig2Q4MLORdcYG4Pktxio=
 			</data>
 		</dict>
 		<key>Modules/ZaptLocationSDKSwiftFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AGfFPp7MbHG9fttc1FQKcSTXWDd5Ejgk0CFhg2q25VA=
+			9+MiNQ9hGd0HBk2MbBhTmiwOKxv37lqckBjzPqYmsjw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

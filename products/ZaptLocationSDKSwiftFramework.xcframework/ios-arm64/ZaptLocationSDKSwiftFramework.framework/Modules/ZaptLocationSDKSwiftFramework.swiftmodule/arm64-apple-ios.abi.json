@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZaptLocationSDKSwiftFramework",
+    "printedName": "ZaptLocationSDKSwiftFramework",
     "children": [
       {
         "kind": "Import",
@@ -208,6 +208,22 @@
         "moduleName": "ZaptLocationSDKSwiftFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -230,6 +246,253 @@
         "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "ZaptLocationSDKSwiftFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTBeaconListener",
+        "printedName": "ZTBeaconListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onBeaconsRanged",
+            "printedName": "onBeaconsRanged(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthorizationChanged",
+            "printedName": "onAuthorizationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMonitoringFailed",
+            "printedName": "onMonitoringFailed(for:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBeaconsRanged",
+            "printedName": "onBeaconsRanged(_:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLBeacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLBeacon",
+                    "printedName": "CoreLocation.CLBeacon",
+                    "usr": "c:objc(cs)CLBeacon"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLBeaconRegion",
+                "printedName": "CoreLocation.CLBeaconRegion",
+                "usr": "c:objc(cs)CLBeaconRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE15onBeaconsRanged_2inySaySo8CLBeaconCG_So0K6RegionCtF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthorizationChanged",
+            "printedName": "onAuthorizationChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE22onAuthorizationChangedyySo21CLAuthorizationStatusVF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMonitoringFailed",
+            "printedName": "onMonitoringFailed(for:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerPAAE18onMonitoringFailed3for5errorySo8CLRegionCSg_s5Error_ptF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "sugared_genericSig": "<Self where Self : ZaptLocationSDKSwiftFramework.ZTBeaconListener>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP",
+        "mangledName": "$s29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP",
+        "moduleName": "ZaptLocationSDKSwiftFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -734,6 +997,59 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "addBeaconListener",
+            "printedName": "addBeaconListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBeaconListener",
+                "printedName": "any ZaptLocationSDKSwiftFramework.ZTBeaconListener",
+                "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC17addBeaconListeneryyAA08ZTBeaconI0_pF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC17addBeaconListeneryyAA08ZTBeaconI0_pF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeBeaconListener",
+            "printedName": "removeBeaconListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBeaconListener",
+                "printedName": "any ZaptLocationSDKSwiftFramework.ZTBeaconListener",
+                "usr": "s:29ZaptLocationSDKSwiftFramework16ZTBeaconListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29ZaptLocationSDKSwiftFramework13ZTLocationSDKC20removeBeaconListeneryyAA08ZTBeaconI0_pF",
+            "mangledName": "$s29ZaptLocationSDKSwiftFramework13ZTLocationSDKC20removeBeaconListeneryyAA08ZTBeaconI0_pF",
+            "moduleName": "ZaptLocationSDKSwiftFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -774,6 +1090,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -830,95 +1160,88 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
       "kind": "StringLiteral",
       "offset": 42,
       "length": 67,
       "value": "\"https:\/\/us-central1-zapt-bigdata.cloudfunctions.net\/initializeSDK\""
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 61,
       "value": "\"https:\/\/us-central1-zapt-backend.cloudfunctions.net\/publish\""
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTHttpService.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 63,
       "value": "\"https:\/\/us-central1-zapt-bigdata.cloudfunctions.net\/visitExit\""
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLogger.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 68,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "StringLiteral",
-      "offset": 45,
+      "offset": 552,
       "length": 29,
       "value": "\"https:\/\/app.zapt.tech\/#\/map\""
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 113,
+      "offset": 620,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 163,
+      "offset": 670,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 299,
+      "offset": 806,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 337,
+      "offset": 844,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 388,
+      "offset": 895,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 437,
+      "offset": 944,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
+      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/zapt-location-ios-swift-sdk\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 983,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/brunocarneiro\/projetos\/Zapt\/ZaptLocationSDKSwiftFramework\/ZaptLocationSDKSwiftFramework\/ZTLocationSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 13,
-      "value": "\"ZaptLocationSDKSwiftFramework.ZTLocationSDK\""
     }
   ]
 }
